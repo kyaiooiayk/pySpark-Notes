@@ -55,6 +55,7 @@ cd spark
     - Then `pip install pyspark`
 ***
 
+
 ## References
 - [How to install PySpark locally](https://github.com/ethen8181/machine-learning/blob/master/big_data/spark_installation.md)
 - [What is Spark](https://github.com/mikulskibartosz/Cookbook/blob/master/AdvancedSkills.md#data-science-platform)
@@ -65,4 +66,5 @@ cd spark
 - [YouTube #4](https://www.youtube.com/watch?v=ePj8hx2C-IE)
 - [YouTube #5](https://www.youtube.com/watch?v=u6I8HCJlIk0)
 - [YouTube #6](https://www.youtube.com/watch?v=l6dx_0LobsA)
+- [Notes on parallel computing and big data](https://drive.google.com/drive/u/2/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
 ***

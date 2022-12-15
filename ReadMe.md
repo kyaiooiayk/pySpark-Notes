@@ -10,14 +10,14 @@ finishes). They do not get written to a drive like with MapReduce.
 - Streaming analytics capability is also what makes Spark so great. Spark has natively the option to schedule a job to run every X seconds or X milliseconds.
 - As a result, Spark can deliver you results from streaming data in "real time".
 - Apache Spark is written in Scala programming language. To support Python with Spark, Apache Spark community released a tool, PySpark.
+***
 
-## What is MLlib ?
-- The best part of Spark is that it offers various built-in packages for machine learning, making it more versatile. These Inbuilt machine learning packages are known as `ML-lib` in Apache Spark.
+## What is `MLlib` ?
+- The best part of Spark is that it offers various built-in packages for machine learning, making it more versatile. These inbuilt machine learning packages are known as `ML-lib` in Apache Spark.
 - MLlib is a very similar API to the scikit learn API. We don’t need to learn it separately.
 - MLlib offers various types of Machine learning rebuild models.
-- Spark’s MLlib supports computer vision as well as Natural Language Processing.
+- Spark’s `MLlib` supports computer vision as well as Natural Language Processing.
 - It can be implemented on Realtime Data as well as distributed data systems.
-
 ***
 
 ## Understand why "Hadoop or Spark" is the totally wrong question!
@@ -65,3 +65,4 @@ cd spark
 - [YouTube #4](https://www.youtube.com/watch?v=ePj8hx2C-IE)
 - [YouTube #5](https://www.youtube.com/watch?v=u6I8HCJlIk0)
 - [YouTube #6](https://www.youtube.com/watch?v=l6dx_0LobsA)
+***

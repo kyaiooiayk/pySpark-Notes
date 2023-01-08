@@ -55,6 +55,15 @@ cd spark
     - Then `pip install pyspark`
 ***
 
+## Installation via Docker image
+- Istalling Spark on your local machine can get very complicated, and it might not be worth the effort, since you won’t actually run a production-like cluster on your local machine. 
+- It’s just easier and quicker to use a container; pull the Spark image from Docker Hub. Once this is done, you will be able to access a ready notebook at localhost:8888 by running `$ docker run -p 8888:8888 jupyter/pyspark-notebook`
+- Navigate to the Notebook and try to run this: 
+```
+import pyspark
+sc = pyspark.SparkContext()
+```
+***
 
 ## References
 - [How to install PySpark locally](https://github.com/ethen8181/machine-learning/blob/master/big_data/spark_installation.md)
@@ -67,4 +76,5 @@ cd spark
 - [YouTube #5](https://www.youtube.com/watch?v=u6I8HCJlIk0)
 - [YouTube #6](https://www.youtube.com/watch?v=l6dx_0LobsA)
 - [Notes on parallel computing and big data](https://drive.google.com/drive/u/2/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
+- [Apache Spark Tutorial: Get Started With Serving ML Models With Spark](https://neptune.ai/blog/apache-spark-tutorial)
 ***

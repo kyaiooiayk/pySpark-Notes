@@ -65,6 +65,19 @@ sc = pyspark.SparkContext()
 ```
 ***
 
+## Tutorials
+- Examples of manipulating with data (crimes data) and building a RandomForest model with PySpark MLlib.ipynb
+- GroupBy And Aggregate Functions.ipynb
+- Tuning Spark Partitions.ipynb
+- Dataframe- Handling Missing Values.ipynb
+- Dataframes - Filter operation.ipynb
+- Pyspark ML.ipynb
+- PCA with PySpark on a local machine.ipynb
+- Linear regression.ipynb
+- pySpark basics.ipynb
+- pySpark dataframe wrangling.ipynb
+***
+
 ## References
 - [How to install PySpark locally](https://github.com/ethen8181/machine-learning/blob/master/big_data/spark_installation.md)
 - [What is Spark](https://github.com/mikulskibartosz/Cookbook/blob/master/AdvancedSkills.md#data-science-platform)

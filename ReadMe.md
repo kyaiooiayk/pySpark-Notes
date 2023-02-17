@@ -42,7 +42,7 @@ export SPARK_HOME=~/spark
 export PYSPARK_PYTHON=~/anaconda3/bin/python
 ```
 - Verify installation:
-```
+```bash
 cd spark
 # launching pyspark
 ./bin/pyspark
@@ -59,7 +59,7 @@ cd spark
 - Istalling Spark on your local machine can get very complicated, and it might not be worth the effort, since you won’t actually run a production-like cluster on your local machine. 
 - It’s just easier and quicker to use a container; pull the Spark image from Docker Hub. Once this is done, you will be able to access a ready notebook at localhost:8888 by running `$ docker run -p 8888:8888 jupyter/pyspark-notebook`
 - Navigate to the Notebook and try to run this: 
-```
+```python
 import pyspark
 sc = pyspark.SparkContext()
 ```

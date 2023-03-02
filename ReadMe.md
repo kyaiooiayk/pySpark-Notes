@@ -38,6 +38,13 @@ finishes). They do not get written to a drive like with MapReduce.
 - It is 100x faster than Hadoop MapReduce in memory and 10x faster on disk. 
 ***
 
+## SQL vs. PySpark 
+- Although you can run any SQL query in Sparl, don't except Spark to run in a few milli-secondes like mysql or postgres do. 
+- Although Spark is low latency compared to other big data solutions like Hive, Impala, you cannot compare it with classic database, Spark is not a database where data are indexed!
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/89139139/222434062-2c32d256-ce24-4a1b-bab2-ccfa56bf2a1d.png">
+
+***
+
 ## Installation
 - Install [java](https://www.oracle.com/java/technologies/downloads/#java8)
 - Install pyspark from Anaconda: `conda install -c conda-forge pyspark` alternatively use pip: `pip install pyspark`

@@ -31,6 +31,13 @@ finishes). They do not get written to a drive like with MapReduce.
 - If you need more complex analytics like machine learning or fast stream processing: Go with Apache Spark.
 ***
 
+## Advantages
+- In-memory caching allows real-time computation and low latency.
+- It can be deployed using multiple ways: Spark’s cluster manager, Mesos, and Hadoop via Yarn.
+- User-friendly API is available for all popular languages that hide the complexity of running distributed systems.
+- It is 100x faster than Hadoop MapReduce in memory and 10x faster on disk. 
+***
+
 ## Installation
 - Install [java](https://www.oracle.com/java/technologies/downloads/#java8)
 - Install pyspark from Anaconda: `conda install -c conda-forge pyspark` alternatively use pip: `pip install pyspark`
@@ -66,16 +73,17 @@ sc = pyspark.SparkContext()
 ***
 
 ## Tutorials
-- Examples of manipulating with data (crimes data) and building a RandomForest model with PySpark MLlib.ipynb
-- GroupBy And Aggregate Functions.ipynb
-- Tuning Spark Partitions.ipynb
-- Dataframe- Handling Missing Values.ipynb
-- Dataframes - Filter operation.ipynb
-- Pyspark ML.ipynb
-- PCA with PySpark on a local machine.ipynb
-- Linear regression.ipynb
-- pySpark basics.ipynb
-- pySpark dataframe wrangling.ipynb
+- Examples of manipulating with data (crimes data) and building a RandomForest model with PySpark MLlib
+- GroupBy And Aggregate Functions
+- Tuning Spark Partitions
+- Dataframe- Handling Missing Values
+- Dataframes - Filter operation
+- Pyspark ML
+- PCA with PySpark on a local machine
+- Linear regression
+- pySpark basics
+- pySpark dataframe wrangling
+- Building a KMeans with PySpark MLib
 ***
 
 ## References

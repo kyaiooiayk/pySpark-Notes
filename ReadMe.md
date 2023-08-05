@@ -50,13 +50,13 @@ finishes). They do not get written to a drive like with MapReduce.
 - Install pyspark from Anaconda: `conda install -c conda-forge pyspark` alternatively use pip: `pip install pyspark`
 - Download the latest version of Apache Spark from this [link](https://spark.apache.org/downloads.html), unzip it and place the folder in you home directory and change the folder name to just spark. 
 - Define these environment variables, On Unix/Mac, this can be done in `.bashrc` or `.bash_profile.`
-```
+```shell
 export SPARK_HOME=~/spark
 # Tell spark which version of python you want to use
 export PYSPARK_PYTHON=~/anaconda3/bin/python
 ```
 - Verify installation:
-```bash
+```shell
 cd spark
 # launching pyspark
 ./bin/pyspark

@@ -42,7 +42,10 @@ finishes). They do not get written to a drive like with MapReduce.
 - Although you can run any SQL query in Sparl, don't except Spark to run in a few milli-secondes like mysql or postgres do. 
 - Although Spark is low latency compared to other big data solutions like Hive, Impala, you cannot compare it with classic database, Spark is not a database where data are indexed!
 <img width="455" alt="image" src="https://user-images.githubusercontent.com/89139139/222434062-2c32d256-ce24-4a1b-bab2-ccfa56bf2a1d.png">
+***
 
+## PySpark and Pandas
+- Generally one of the most used function is Spark’s `applyInPandas()` which enables splitting giant data sources into Pandas-sized chunks and processing them independently. 
 ***
 
 ## Installation
@@ -79,6 +82,12 @@ sc = pyspark.SparkContext()
 ```
 ***
 
+## How to run PySpark locally
+- via Synapse
+- via Elastic Map Reduce)
+- via Kubernetes
+***
+
 ## Tutorials
 - Examples of manipulating with data (crimes data) and building a RandomForest model with PySpark MLlib
 - GroupBy And Aggregate Functions
@@ -106,3 +115,8 @@ sc = pyspark.SparkContext()
 - [Notes on parallel computing and big data](https://drive.google.com/drive/u/2/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
 - [Apache Spark Tutorial: Get Started With Serving ML Models With Spark](https://neptune.ai/blog/apache-spark-tutorial)
 ***
+
+## Blogs
+- [Distributed Llama 2 on CPUs](https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d)
+***
+

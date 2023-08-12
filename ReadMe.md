@@ -114,6 +114,7 @@ sc = pyspark.SparkContext()
 - [YouTube #6](https://www.youtube.com/watch?v=l6dx_0LobsA)
 - [Notes on parallel computing and big data](https://drive.google.com/drive/u/2/folders/13mzxrofldkbdgF_eT5EPZ1cEiCgOT78d)
 - [Apache Spark Tutorial: Get Started With Serving ML Models With Spark](https://neptune.ai/blog/apache-spark-tutorial)
+- [PySpark Course: Big Data Handling with Python and Apache Spark](https://www.youtube.com/watch?v=jWZ9K1agm5Y)
 ***
 
 ## Blogs
